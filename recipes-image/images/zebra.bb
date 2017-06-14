@@ -12,8 +12,8 @@ LIC_FILES_CHKSUM = "file://${COREBASE}/LICENSE;md5=3f40d7994397109285ec7b81fdeb3
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
 SRCREV = "4ec84957442182f36351f94c0626560ec3ffd487"
-SRC_URI = "git://github.com/barmalei/zebkit.git;protocol=git"
-	
+SRC_URI = "npm://registry.npmjs.org;name=zebkit;version=${PV}"
+
 
 # this SRCREV determines the branch or tag to be used
 SRCREV = "master"
